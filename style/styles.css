@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    user-select: none;
+    background-image: url(../img/backg.png);
+    height: 100vh;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    text-shadow: 3px 1px 0px #ffb100;
+}
+
+h1 img {
+    filter: invert(1);
+}
+
+.key {
+    margin: 11rem 0;
+    cursor: pointer;
+}
+
+.key .dram {
+    display: inline;
+    border-radius: 10px;
+    outline: 7px solid #00000040;
+    margin: 1rem;
+    font-size: 6rem;
+    padding: 1rem 3rem 1rem;
+    text-shadow: 3px 1px 0px #9d6d9a;
+    color: white;
+    background: #333;
+}
+
+#lafing {
+    background: rgba(255, 255, 0, 0);
+    outline: none;
+    position: absolute;
+    top: 153px;
+    height: 86px;
+    width: 50px;
+    font-size: 33px;
+}
+
+#lafing img {
+    border-radius: 16%;
+    width: 79px;
+}
+
+.active {
+    opacity: 0.5;
+    outline: 7px solid #ff00f340;
+}
